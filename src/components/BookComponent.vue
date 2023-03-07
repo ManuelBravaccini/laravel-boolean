@@ -1,9 +1,8 @@
-<!-- <script>
+<script>
 
 export default {
     name: 'BookComponent',
     props: [
-
         'book'
     ],
     data() {
@@ -22,15 +21,13 @@ export default {
 <template>
     <div class="col-5 my-2 p-2 border border-dark rounded">
         <div class="card-body">
-            <h5 class="card-title mb-2"></h5>
-            <p class="card-text"></p>
+            <h5 class="card-title mb-2">{{ book.title }}</h5>
+            <p class="card-text">{{ book.author }}</p>
+            <img :src="book.cover_image" alt="">
             <button class="btn btn-primary">
-                <router-link :to="{ name: 'single-post', params: { id: project.id } }" class="nav-link ">
-                        Show more
-                    </router-link>
             </button>
         </div>
     </div>
 </template>
 
-<style  lang="scss" scoped></style> -->
+<style  lang="scss" scoped></style>

@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
 import axios from 'axios';
 import BookComponent from './BookComponent.vue';
 export default {
@@ -21,7 +21,7 @@ export default {
             })
                 .then((response) => {
 
-                    this.books = response.data.result.data;
+                    this.books = response.data.results.data;
                 })
                 .catch(function (error) {
                     console.log(error);
@@ -46,4 +46,4 @@ export default {
     </section>
 </template>
 
-<style  lang="scss" scoped></style> -->
+<style  lang="scss" scoped></style>
