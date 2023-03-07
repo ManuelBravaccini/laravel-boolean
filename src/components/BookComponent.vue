@@ -1,7 +1,7 @@
 <!-- <script>
 
 export default {
-    name: 'ProjectComponent',
+    name: 'BookComponent',
     props: [
 
         'book'
