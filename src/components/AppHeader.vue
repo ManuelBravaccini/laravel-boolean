@@ -19,7 +19,7 @@ export default {
                             <router-link class="nav-link" :class="this.$route.name === 'home'? 'active': ''" aria-current="page" :to="{name: 'home'}">Home</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link"  :class="this.$route.name === 'posts'? 'active': ''" :to="{name: 'booka'}">Books-list</router-link>
+                            <router-link class="nav-link"  :class="this.$route.name === 'posts'? 'active': ''" :to="{name: 'books'}">Books-list</router-link>
                         </li>
                     </ul>
                 </div>
