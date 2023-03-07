@@ -24,9 +24,9 @@ export default {
             <h5 class=" card-title mb-2">{{ book.title }}</h5>
             <p class="card-text">{{ book.author }}</p>
             <img class="img-fluid" :src="book.cover_image" alt="">
-            <button class="btn btn-primary mt-3 ">
-                show more
-            </button>
+            <router-link :to="{ name: 'book', params: { id: book.id } }" class="btn btn-primary">
+                Read more...
+            </router-link>
         </div>
     </div>
 </template>
