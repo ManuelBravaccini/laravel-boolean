@@ -20,9 +20,9 @@ export default {
   <router-view></router-view>
 </template>
 
-<style>
-@use './styles/general.scss' as *;
-@use 'bootstrap/scss/bootstrap' as *;
+<style lang="scss">
+@use './style/general.scss' as *;
+@use 'bootstrap/scss/bootstrap' as * ;
 
 .logo {
   height: 6em;
