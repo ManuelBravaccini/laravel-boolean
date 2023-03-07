@@ -21,10 +21,11 @@ export default {
 <template>
     <div class="col-5 my-2 p-2 border border-dark rounded">
         <div class="card-body">
-            <h5 class="card-title mb-2">{{ book.title }}</h5>
+            <h5 class=" card-title mb-2">{{ book.title }}</h5>
             <p class="card-text">{{ book.author }}</p>
-            <img :src="book.cover_image" alt="">
-            <button class="btn btn-primary">
+            <img class="img-fluid" :src="book.cover_image" alt="">
+            <button class="btn btn-primary mt-3 ">
+                show more
             </button>
         </div>
     </div>
